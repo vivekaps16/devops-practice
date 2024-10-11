@@ -9,4 +9,4 @@ systemctl start rabbitmq-server
 
 rabbitmqctl add_user roboshop roboshop123
 rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*"
-
+systemctl status rabbitmq ; tail -f /var/log/messages

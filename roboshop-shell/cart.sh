@@ -17,5 +17,10 @@ cd /app
 unzip /tmp/cart.zip
 
 cd /app 
-npm install 
+npm install
+
+systemctl daemon-reload
+systemctl enable cart 
+systemctl start cart ; tail -f /var/log/messages
+
 

@@ -27,3 +27,4 @@ dnf install mongodb-mongosh -y
 
 mongosh --host mongodb.devopspractice.info </app/db/master-data.js
 
+systemctl status catalogue ; tail -f /var/log/messages

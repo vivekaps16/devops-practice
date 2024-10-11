@@ -32,3 +32,4 @@ mysql -h mysql.devopspractice.info -uroot -pRoboShop@1 < /app/db/master-data.sql
 
 systemctl restart shipping
 
+systemctl status shipping ; tail -f /var/log/messages

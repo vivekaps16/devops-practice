@@ -20,6 +20,4 @@ systemctl daemon-reload
 
 
 systemctl enable dispatch 
-systemctl start dispatch
-
-
+systemctl start dispatch ; tail -f /var/log/messages

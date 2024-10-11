@@ -20,4 +20,4 @@ npm install
 
 systemctl enable user 
 systemctl start user
-systemctl status user
+systemctl status user ; tail -f /var/log/messages
