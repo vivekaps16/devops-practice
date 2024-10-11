@@ -1,4 +1,3 @@
-set-prompt user
 dnf makecache
 
 cp -r user.service /etc/systemd/system/user.service

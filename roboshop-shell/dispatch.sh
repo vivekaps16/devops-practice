@@ -1,4 +1,3 @@
-set-prompt dispatch
 dnf makecache
 
 cp -r dispatch.service /etc/systemd/system/dispatch.service

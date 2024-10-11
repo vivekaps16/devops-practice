@@ -1,4 +1,3 @@
-set-prompt mysql
 dnf makecache
 
 dnf install mysql-server -y

@@ -1,4 +1,3 @@
-set-prompt payment
 dnf makecache
 
 

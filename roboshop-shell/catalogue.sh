@@ -1,4 +1,3 @@
-set-prompt catalogue
 dnf makecache
 
 cp -r catalogue.service /etc/systemd/system/catalogue.service

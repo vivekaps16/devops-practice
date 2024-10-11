@@ -1,4 +1,3 @@
-set-prompt cart
 dnf makecache
 
 cp -r cart.service /etc/systemd/system/cart.service

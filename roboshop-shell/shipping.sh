@@ -1,4 +1,3 @@
-set-prompt shipping
 dnf makecache
 
 cp -r shipping.service /etc/systemd/system/shipping.service
